@@ -6,21 +6,35 @@
   color: #212121;
   background-color: #e5e5e5;
 }
-.description {
-  color: #757575;
-}
 
 .button:hover,
 .button:focus,
 .button:active {
   background-color: #2196f3;
+  cursor: pointer;
 }
 .contact:hover {
   color: #2196f3;
 }
-.cursor {
-  cursor: pointer;
+
+:root {
+  --text-color: #212121;
+  --second-text-color: #757575;
+  --button-background-color: #2196f3;
+  --background-color: #e5e5e5;
 }
-.link {
+p {
+  color: var(--second-text-color);
+}
+
+.main-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+span {
+  color: var(--button-background-color);
+}
+.contact-links {
+  color: var(--second-text-color);
   text-decoration: none;
 }
