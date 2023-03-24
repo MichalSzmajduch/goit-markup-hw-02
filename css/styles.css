@@ -1,3 +1,26 @@
-.title {
-  font-weight: 600;
+.bodystyle {
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.46;
+  color: #212121;
+  background-color: #e5e5e5;
+}
+.description {
+  color: #757575;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #2196f3;
+}
+.contact:hover {
+  color: #2196f3;
+}
+.cursor {
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
 }
