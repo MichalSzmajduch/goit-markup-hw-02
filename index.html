@@ -5,49 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="bodystyle">
     <header>
-      <a href="#">WebStudio</a>
+      <a href="./index.html" class="button header-logo"
+        ><span class="logo-color">Web</span>Studio</a
+      >
       <nav>
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="#" class="button header-link">Agencja</a></li>
+          <li>
+            <a href="./portfolio.html" class="button header-link">Portfolio</a>
+          </li>
+          <li><a href="#" class="button header-link">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:48111111111">+48 111 111 111</a>
+      <a href="mailto:info@devstudio.com" class="contact header-contact"
+        >info@devstudio.com</a
+      >
+      <a href="tel:48111111111" class="contact header-contact"
+        >+48 111 111 111</a
+      >
     </header>
     <main>
       <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+        <div class="secondary-background">
+          <h1 class="header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button type="button" class="button header-button">
+            Zamów usługe
+          </button>
+        </div>
         <ul>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h4 class="fourth-header">LOREM IPSUM</h4>
+            <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h4 class="fourth-header">LOREM IPSUM</h4>
+            <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h4 class="fourth-header">LOREM IPSUM</h4>
+            <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h4 class="fourth-header">LOREM IPSUM</h4>
+            <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -55,7 +74,7 @@
         </ul>
       </section>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="secondary-header">Czym się zajmujemy</h2>
         <ul>
           <li>
             <img
@@ -84,7 +103,7 @@
         </ul>
       </section>
       <section>
-        <h2>Nasz zespół</h2>
+        <h2 class="secondary-header">Nasz zespół</h2>
         <ul>
           <li>
             <img
@@ -93,8 +112,8 @@
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            <p>Product Designer</p>
+            <h3 class="third-header">John Doe</h3>
+            <p class="job-role">Product Designer</p>
           </li>
           <li>
             <img
@@ -103,8 +122,8 @@
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            <p>Frontend Developer</p>
+            <h3 class="third-header">John Doe</h3>
+            <p class="job-role">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -113,8 +132,8 @@
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            <p>Marketing</p>
+            <h3 class="third-header">John Doe</h3>
+            <p class="job-role">Marketing</p>
           </li>
           <li>
             <img
@@ -123,23 +142,35 @@
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            <p>UI Designer</p>
+            <h3 class="third-header">John Doe</h3>
+            <p class="job-role">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="WebStudio">WebStudio</a>
+    <footer class="footer-background">
+      <a href="./index.html" class="button footer-logo"
+        ><span class="logo-color">Web</span>Studio</a
+      >
       <address>
         <ul>
           <li>
-            <a href="address:m.Warszawa,AlejeJerozolimskie21"
+            <a
+              href="address:m.Warszawa,AlejeJerozolimskie21"
+              class="contact footer-contact"
               >Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:48111111111">+48 111 111 111</a></li>
+          <li>
+            <a href="mailto:info@example.com" class="contact footer-contact"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:48111111111" class="contact footer-contact"
+              >+48 111 111 111</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
